@@ -1,19 +1,20 @@
 ---
-layout: post
-title:  "vscode 插件 markdown-schedule-snippet"
-categories: JavaScript
-tags: 效率 vscode markdown
+
+layout: post title: "vscode 插件 markdown-schedule-snippet" categories: JavaScript tags: 效率 vscode markdown
+
 author: HyG
----
+-----------
 
-* content
-{:toc}
+-	content {:toc}
 
-## 起因
+起因
+----
 
 不知道大家是怎样安排自己的日常计划的，我习惯是建立一个仓库，按照年/周记录在 markdown 里，平时这个仓库也写点简单的 demo，目录类似如下：
 
-``` bash
+<script src="https://gist.github.com/bluedragon0725/5d935c33603a18ba5500525b2899cdc3.js"></script>
+
+```bash
 week
 ├── 2016
 ├── 2017
@@ -38,23 +39,20 @@ week
 └── yarn.lock
 ```
 
-
-
-
-
 当然每个人有自己习惯的方式记录着日常工作与生活。我平时是使用这种方式，当然这个记录里涉及了很多工作上的信息，目前仅在内部的 gitlab 上托管着。
 
 对于每一个 md 文件内部，我习惯按照星期几来记录，类似如下：
 
 ![](https://user-gold-cdn.xitu.io/2018/10/10/1665ccd109702abc?w=903&h=893&f=png&s=151884)
 
-## markdown-schedule-snippet
+markdown-schedule-snippet
+-------------------------
 
 可以看到每次写这些星期几的缩略都很麻烦，于是开发了一个简单的 vscode 插件 markdown-schedule-snippet，正是本文的标题，输入 `we` 自动生成如下代码
 
 插件地址 [https://marketplace.visualstudio.com/items?itemName=HyG.schedule](https://marketplace.visualstudio.com/items?itemName=HyG.schedule)
 
-``` markdown
+```markdown
 
 ## Mon.
 
@@ -73,7 +71,6 @@ week
 ```
 
 还有我自己设计的 logo，哈哈哈
-
 
 ![](https://user-gold-cdn.xitu.io/2018/10/10/1665d564192bc6bb?w=256&h=256&f=png&s=51734)
 
